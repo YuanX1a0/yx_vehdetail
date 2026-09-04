@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: GPL-3.0-only
+// Copyright (C) 2026 YuanX1a0
+
 globalThis.YXVehicleColorNames = Object.freeze({
     0: 'Metallic Black',
     1: 'Metallic Graphite Black',

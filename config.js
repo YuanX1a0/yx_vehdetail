@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: GPL-3.0-only
+// Copyright (C) 2026 YuanX1a0
+
 globalThis.YXVehDetailConfig = {
     // 输入 /dl 开启或关闭附近载具信息。
     Command: 'dl',
