@@ -1,13 +1,12 @@
 # yx_vehdetail
 
-一个无框架依赖的 FiveM standalone 载具详情资源。
+一个无框架依赖的载具详情。
 
 ## 功能
 
-- 输入 `/dl` 开启或关闭附近全部载具的双行 3D 信息。
+- 输入 `/dl` 开启或关闭附近全部载具的3D 信息。
 - 第一行：`[RID: ... | Model: ... | Plates: ...]`
 - 第二行：`[Engine: ... | Color: ...]`
-- 文字位于每台载具模型包围盒的真实中心；每帧读取本地实体矩阵并使用原生 3D draw origin，高速移动和旋转时实时跟随。
 - 使用青蓝色 `#08A9D4`、Font 4、黑色描边和阴影。
 - 支持原版和 addon 载具的 spawn/model 名。
 - 支持 GTA V 0–159 主色名称；自定义喷漆会匹配为最接近的 GTA V 颜色名称，界面不会显示 RGB 或十六进制值。
@@ -44,9 +43,6 @@
 - `Text.MinScale` / `Text.MaxScale`：远近字体大小。
 - `Text.LineSpacing`：两行间距。
 - `Text.OffsetX/Y/Z`：相对载具中心的最终位置微调。
-
-字号按玩家与载具的真实距离计算，不受高速追尾相机和动态 FOV 影响。
-
 ## 开源许可证
 
 本项目采用 [GNU General Public License v3.0](LICENSE)，SPDX 标识为 `GPL-3.0-only`。
